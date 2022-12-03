@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.switch-field {
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	/* margin-right: -1px; */
+	flex: 1;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: peachpuff;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+.component{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+.left-component{
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	font-weight: normal;
+	line-height: 1.625;
+	margin: 3rem auto 0rem auto;
+	width: 25%;
+	padding: 2rem;
+    margin-top: 4rem;
+    background: #EE4E34;
+    text-align: center;
+    border-radius: 50px;
+	color: white;
+}
+.right-component{
+	width: 50%;
+	margin-top: 4rem;
+}
+.form {
+	
+	text-align: center;
+	max-width: 270px;
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	font-weight: normal;
+	line-height: 1.625;
+	margin: 8px auto;
+	padding-left: 16px;
+	z-index: 2;
+}
+
+h2 {
+	font-size: 18px;
+
+}
+.area{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(184, 184, 184);
+}
+
+.right-component h2{
+	font-size:34px; font-weight:500; text-transform:uppercase;
+}
+.location{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(184, 184, 184);
+}
+
+.submit{
+  background: black;
+  width: 60%;
+  border: 0;
+  margin: 15px auto;
+  box-sizing: border-box;
+  font-size: 15px;
+	height: 35px;
+	text-align: center;
+	border-radius: 1rem;
+	color: white;
+}
+
+.result{
+		background: #643333;
+		width: 60%;
+		border: 0;
+		margin: 15px auto;
+		box-sizing: border-box;
+		font-size: 15px;
+		height: 60px;
+		text-align: center;
+		border-radius: 0.5rem;
+        border: 1px solid rgb(184, 184, 184);
+}
+body, html {
+  height: 100%;
+  background-color:#FCEDDA ;
+  
+
+}
+.topic{
+text-align: center;
+ font-size: 40px;
+color: blue;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-left: 1px;
+
+}
+
